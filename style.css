@@ -34,6 +34,7 @@ nav {
     padding-right: 1.5rem;
 }
 
+
 .img1 {
 left: 0px;
 right: 0px;
@@ -52,12 +53,28 @@ margin-top: 3rem;
 margin-bottom: 3rem;
 } 
 
+.adoptheading {
+margin-left: 1.25rem;
+}
+
+.dog {
+border: 1px solid gray;
+display: inline-block;
+justify-content: space-evenly;
+font-family: Open Sans;
+}
+
+dd {
+background-color: #89DEEF;
+display: inline-block;
+border-radius: 20%;
+}
+
 .addresshours {
 margin-left: 3rem;
 margin-top: 4rem;
 margin-bottom: 5rem;
 font-family: Open Sans;
-
 }
 
 footer {
