@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@400;600&display=swap');
+
+body {margin: 0;}
+
+header {
+background-color: #004175;
+color: white;
+top: 0px;
+left: 0px;
+right: 0px;
+font-family: Oswald;
+text-align: left;
+padding: 0px;
+width: 100%;
+margin: 0px;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: center;
+}
+
+#title {
+    padding-left: 20px;
+    }
+
+nav a {
+    color: white;
+    padding-right: 1rem;
+    text-decoration: none;
+    font-size: larger;
+}
+
+nav {
+    padding-right: 1.5rem;
+}
+
+.img1 {
+left: 0px;
+right: 0px;
+top: 100px;
+padding: 0px;
+width: 100%;
+}
+
+.intro {
+background-color: white;
+color: black;
+font-family: Open Sans;
+margin-left: 10rem;
+margin-right: 10rem;
+margin-top: 5rem;
+margin-bottom: 5rem;
+} 
+
+footer {
+display:flex;
+height: 20rem;
+}
+
+.Donate {
+    background: 
+    linear-gradient( rgba(85, 85, 240, 0.5),
+    rgba(85, 85, 240, 0.5)),
+    url(images/donate.jpg); 
+}
+
+.Volunteer {
+    background: 
+    linear-gradient( rgba(85, 85, 240, 0.5),
+    rgba(85, 85, 240, 0.5)),
+    url(images/volunteer.jpg); 
+}
+
+.Location {
+    background: 
+    linear-gradient( rgba(85, 85, 240, 0.5),
+    rgba(85, 85, 240, 0.5)),
+    url(images/location.png); 
+}
+
+.foot {
+display: flex;
+align-items: center;
+justify-content: center;
+color: white;
+width: 33.4%;
+background-size: cover;
+background-position: center;
+font-family: Oswald;
+font-size: 4rem;
+}
