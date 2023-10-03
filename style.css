@@ -59,15 +59,22 @@ margin-left: 1.25rem;
 
 .dog {
 border: 1px solid gray;
-display: inline-block;
-justify-content: space-evenly;
+display: flexbox;
 font-family: Open Sans;
+width: 35%;
+height: 20%;
+flex-wrap: wrap;
+border: 2px solid red;
+margin-left: 1.25rem;
+
 }
 
 dd {
 background-color: #89DEEF;
 display: inline-block;
 border-radius: 20%;
+background-image: ;
+justify-content: center;
 }
 
 .addresshours {
