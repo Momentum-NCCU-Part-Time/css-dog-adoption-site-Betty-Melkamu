@@ -37,7 +37,7 @@ nav {
 .img1 {
 left: 0px;
 right: 0px;
-top: 100px;
+top: 90px;
 padding: 0px;
 width: 100%;
 }
@@ -46,15 +46,15 @@ width: 100%;
 background-color: white;
 color: black;
 font-family: Open Sans;
-margin-left: 10rem;
-margin-right: 10rem;
-margin-top: 5rem;
-margin-bottom: 5rem;
+margin-left: 15rem;
+margin-right: 15rem;
+margin-top: 3rem;
+margin-bottom: 3rem;
 } 
 
 footer {
 display:flex;
-height: 20rem;
+height: 23rem;
 }
 
 .Donate {
@@ -88,4 +88,5 @@ background-size: cover;
 background-position: center;
 font-family: Oswald;
 font-size: 4rem;
+border: 2px solid red;
 }
