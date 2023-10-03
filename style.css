@@ -52,6 +52,14 @@ margin-top: 3rem;
 margin-bottom: 3rem;
 } 
 
+.addresshours {
+margin-left: 3rem;
+margin-top: 4rem;
+margin-bottom: 5rem;
+font-family: Open Sans;
+
+}
+
 footer {
 display:flex;
 height: 23rem;
@@ -88,5 +96,4 @@ background-size: cover;
 background-position: center;
 font-family: Oswald;
 font-size: 4rem;
-border: 2px solid red;
 }
