@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@400;600&display=swap');
+
+body {
+margin: 0;
+width:100%;
+}
+
+/*Header on Every Page*/
+
+header {
+background-color: #004175;
+color: white;
+top: 0px;
+left: 0px;
+right: 0px;
+font-family: Oswald;
+text-align: left;
+padding: 0px;
+width: 100%;
+margin: 0px;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: center;
+}
+
+#title {
+    padding-left: 20px;
+}
+
+nav a {
+    color: white;
+    padding-right: 1rem;
+    text-decoration: none;
+    font-size: larger;
+}
+
+nav {
+    padding-right: 1.5rem;
+}
+
+/*Homepage*/
+
+.img1 {
+left: 0px;
+right: 0px;
+top: 90px;
+padding: 0px;
+width: 100%;
+}
+
+.intro {
+background-color: white;
+color: black;
+font-family: Open Sans;
+margin-left: 15rem;
+margin-right: 15rem;
+margin-top: 3rem;
+margin-bottom: 3rem;
+} 
+
+/*Adopt Page*/
+
+.adoptheading {
+margin-left: 1.25rem;
+font-family: Open Sans;
+}
+
+.alldogs {
+display: flex;
+font-family: Oswald;
+flex-direction: row;
+flex-wrap: wrap;
+justify-items: space-evenly;
+width: 100%;
+margin-bottom: 5rem;
+}
+
+.dog {
+border: 1.4px solid lightgray;
+height: auto;
+padding-top: .5rem;
+padding-left: .3rem;
+padding-right: .3rem;
+padding-bottom: 0;
+border: border-box;
+flex-wrap: nowrap;
+height: 25rem;
+width: 19rem;
+margin-top:0.5rem;
+margin-left: 0.3rem;
+margin-right: 0.3rem;
+border-radius: 1%;
+justify-content: center;
+}
+
+h4 {
+margin-top: 0;
+}
+
+button {
+display: inline-block;
+background-color: #89DEEF;
+border: none;
+border-radius: 1rem;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+padding-left: 0.25rem;
+padding-right: 0.25rem;
+margin-right: auto;
+margin-left: auto;
+}
+
+/*Contact Us Page*/
+
+.addresshours {
+margin-left: 3rem;
+margin-top: 4rem;
+margin-bottom: 5rem;
+font-family: Open Sans;
+}
+
+/*Footer on Every Page*/
+
+footer {
+display: flex;
+height: 23rem;
+}
+
+.Donate {
+    background: 
+    linear-gradient( rgba(85, 85, 240, 0.5),
+    rgba(85, 85, 240, 0.5)),
+    url(images/donate.jpg); 
+}
+
+.Volunteer {
+    background: 
+    linear-gradient( rgba(85, 85, 240, 0.5),
+    rgba(85, 85, 240, 0.5)),
+    url(images/volunteer.jpg); 
+}
+
+.Location {
+    background: 
+    linear-gradient( rgba(85, 85, 240, 0.5),
+    rgba(85, 85, 240, 0.5)),
+    url(images/location.png); 
+}
+
+.foot {
+display: flex;
+align-items: center;
+justify-content: center;
+color: white;
+width: 33.4%;
+background-size: cover;
+background-position: center;
+font-family: Oswald;
+font-size: 4rem;
+}
